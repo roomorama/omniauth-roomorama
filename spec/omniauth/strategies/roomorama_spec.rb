@@ -28,7 +28,7 @@ describe OmniAuth::Strategies::Roomorama do
 
   describe '#callback_path' do
     it 'should have the correct callback path' do
-      subject.callback_path.should eq('/auth/roomoramacallback')
+      subject.callback_path.should eq('/auth/roomorama/callback')
     end
   end
 end
