@@ -20,5 +20,4 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency 'rspec', '~> 2.7'
   gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'debugger', '>= 1.3.1'
 end
