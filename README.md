@@ -1,5 +1,8 @@
 # OmniAuth Roomorama
 
+[![Build Status](https://travis-ci.org/roomorama/omniauth-roomorama.png)](https://travis-ci.org/roomorama/omniauth-roomorama)
+
+
 This is an OmniAuth 1.1 strategy for authenticating to Roomorama. To
 use it, you'll need to sign up for an OAuth2 Application ID and Secret
 on the [Roomorama Application's Registration Page](https://roomorama.com/oauth_clients/new).
