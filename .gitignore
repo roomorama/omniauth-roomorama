@@ -6,6 +6,7 @@
 .rbx
 .rvmrc
 .yardoc
+.idea
 Gemfile.lock
 bin
 coverage*
