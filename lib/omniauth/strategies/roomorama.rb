@@ -15,14 +15,14 @@ module OmniAuth
       
       info do
         {
-          name: raw_info['login'],
-          email: raw_info['email'],
-          nickname: raw_info['login'],
-          first_name: raw_info['first_name'],
-          last_name: raw_info['last_name'],
-          location: [raw_info['city'], raw_info['country']].delete_if(&:blank?).join(', '),
-          description: raw_info['description'],
-          phone: raw_info['phone_number'],
+          :name => raw_info['login'],
+          :email => raw_info['email'],
+          :nickname => raw_info['login'],
+          :first_name => raw_info['first_name'],
+          :last_name => raw_info['last_name'],
+          :location => [raw_info['city'], raw_info['country']].delete_if(&:blank?).join(', '),
+          :description => raw_info['description'],
+          :phone => raw_info['phone_number'],
         }
       end
       
