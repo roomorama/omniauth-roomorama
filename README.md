@@ -31,7 +31,7 @@ end
 
 ## Supported Rubies
 
-OmniAuth Roomorama Admin is tested under 1.9.3 but will probably work under other rubies
+OmniAuth Roomorama is tested under 1.9.3 but will probably work under other rubies
 
 ## License
 
